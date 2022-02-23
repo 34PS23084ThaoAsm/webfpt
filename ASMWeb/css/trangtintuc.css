@@ -1,0 +1,274 @@
+body{
+  margin: 0;
+}
+.header-container{
+  width: 100%;
+}
+.header1{
+  width: 100%;
+  min-height: 33px;
+  background-color:#dc143ced;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", Sans-serif;;
+}
+.header1>h3{
+  font-size: 12px;
+  color: white;
+}
+.header1__icon-link{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 5px;
+}
+.header1__icon{
+  margin-top: 7px;
+}
+
+/* header2 */
+.header-2{
+  width: 100%;
+  margin-top: 0px;
+  background-color:yellow;
+  height: 100px;
+  box-shadow: wheat;
+  border-bottom: 1px solid steelblue;
+  justify-content: space-around;
+  display: flex;
+  background-color: white;
+  font-family: "Montserrat", Sans-serif;
+
+ 
+}
+.header2__menu-nav-list a{
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+.header2__menu-nav-list li{
+  list-style: none;
+  display: inline-flex;
+  margin-left: 25px;
+  font-size: 15px;
+  line-height: 80px;
+}
+.header2__menu-logo{
+ 
+}
+.header2__menu-nav{
+  margin-bottom: 10px;
+}
+.header2__menu{
+  display: inline-flex;  
+}
+.header2__menu-logo img{
+  width: 190px;
+  height: 70px;
+  margin-top: 15px;
+}
+.container__bannner>img{
+  height: 590px;
+ width: 100%;
+}
+.phandau {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.tintuc {
+  width: 80%;
+  margin: 0 auto;
+}
+.tintuc-1 {
+  width: 100%;
+  float: left;
+  min-height: 400px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.tintuc-img {
+  width: 48%;
+  float: left;
+}
+.tintuc-img img {
+  width: 100%;
+}
+.tintuc-item {
+  width: 48%;
+  margin-left: 25px;
+  float: left;
+}
+
+/* phan2 */
+.tintuc-2 {
+  width: 100%;
+  margin-top: 50px;
+  float: left;
+  min-height: 400px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.noidung {
+  width: 100%;
+}
+.tintuc2 img {
+  width: 100%;
+  padding: 5px;
+}
+
+.tintuc2 {
+  width: 36%;
+  float: left;
+  margin-left: 40px;
+}
+.menu {
+  width: 20%;
+  float: left;
+  padding: 5px;
+  display: block;
+}
+.menu > ul {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.menu > ul li {
+  padding: 20px 5px;
+  background-color: white;
+  list-style: none;
+  border: 1px solid orange;
+  margin-bottom: 5px;
+}
+.menu > ul li > a {
+  padding-left: 10px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.menu > ul li a img {
+  width: 13%;
+  position: absolute;
+  right: 20px;
+}
+.menu > ul li:hover {
+  background-color: orange;
+}
+
+/* tin noi bat */
+.tin-noi-bat h3{
+  font-size: 17px;
+  margin: 0;
+  padding: 10px;
+}
+.tin-noi-bat{
+  width: 20%;
+  float: left;
+  margin-left: 10px;
+}
+.tin-noi-bat-1{
+  width: 100%;
+  float: left;
+}
+.tin-noi-bat-1 img{
+  width: 45%;
+  float: left;
+  margin-right: 10px;
+}
+.tin-noi-bat-1 p{
+  width: 45%;
+  float: left;
+  margin: 0;
+  font-size: 15px;
+ 
+}
+
+
+.video1 {
+  width: 18%;
+  float: left;
+  padding: 10px;
+}
+.video1 video {
+  float: left;
+  width: 95%;
+  box-shadow: 0 0 3px black;
+  border-radius: 5px;
+}
+/* footer */
+.footer-body{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom:40px ;
+  font-family: "Montserrat", Sans-serif;;
+  width: 100%;
+  background-color: brown;
+
+}
+
+.footer-container{
+  width: 100%;
+  
+}
+.footer-body-2-0{
+  margin-top: 60px;
+  text-align: left;
+ 
+}
+.footer-body-1{
+  display: block;
+  width: 370px;
+  text-align: left;
+  margin-top: 90px;
+}
+.footer-body-1-p>h4{
+  font-size: 18px;
+  color: #f7941d;;
+}
+.footer-body-1-p{
+  margin-top: 20px;
+  color:white;
+}
+
+.footer-body-2{
+ 
+  display: block;
+  width: 370px;
+  font-size: 14px;
+  text-align: left;
+  color:white;
+}
+.footer-body-2 ul{
+  padding-left: 0;
+}
+.footer-body-2  h5{
+ text-decoration: underline;
+}
+.footer-body-1-img>img{
+  width: 280px;
+  height: 85px;
+}
+.footer-body-2>h3{
+  font-size: 18px;
+  color: #f7941d;;
+}
+.fot{
+  list-style: none;
+}
+.footer-body-2-1{
+  margin-top: 100px;
+  
+}
+.footer-body-1-icon{
+  margin-top: 10px;
+  margin-left: 60px;
+  font-size:30px ;
+  color: white;
+}
+
